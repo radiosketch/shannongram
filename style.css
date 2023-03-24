@@ -1,0 +1,83 @@
+/* TODO
+    Fix caption spacing; it is being overlapped by the following post.
+    Add particle effects to the mouse
+    Add spinning logos for lean, weed, etc surrounding the feed.
+    Add random sound effects
+*/
+
+/* Start https://www.cursors-4u.com */ 
+body {
+    cursor: url(https://cur.cursors-4u.net/toons/too-7/too624.cur), auto !important;
+} 
+/* End https://www.cursors-4u.com */
+
+@font-face {
+    font-family: siteFont;
+    src: url(Chomsky-8MOa2.otf);
+}
+
+body {
+    background-image: url(assets/s-l1600.jpg);
+    background-size: 100px;
+    background-attachment: fixed;
+}
+
+#logo {
+    width: 75px;
+}
+
+#menu-icon {
+    float: right;
+    margin-right: 25px;
+}
+
+#navbar {
+    z-index: 10;
+    width: 100%;
+    position: fixed;
+    padding: 10px;
+    background-image: linear-gradient(to right, #c39959, #aea43f, #279b22, #32dce0, #71baea); 
+    left: 0px;
+    top: 0px;
+}
+
+#post {
+    position: relative;
+    background-color: #32dce0;
+    width: 75%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 2%;
+    top: 75px;
+}
+
+#post img {
+    width: 100%;
+}
+
+#caption {
+    position: relative;
+    background-color: darkred;
+    bottom: -1;
+    width: 100%;
+    font-family: siteFont;
+    color: pink;
+    border-radius: 5px;
+    border: 1% dashed red;
+    font-size: 16px;
+}
+
+#caption p {
+    margin: 8px;
+}
+
+#copied-notif {
+    display: inline;
+    position: relative;
+    top: -5px;
+    font-family: siteFont;
+}
+
+#music {
+    display: none;
+}
